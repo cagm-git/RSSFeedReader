@@ -44,7 +44,7 @@
 - [X] T015 [US1] Update `frontend/src/RSSFeedReader.UI/Shared/NavMenu.razor` to include navigation for the subscription page if needed
 - [X] T016 [US1] Implement empty-input validation in the frontend so blank URLs are not submitted and the current list remains unchanged
 - [X] T017 [US1] Implement duplicate URL guarding so resubmitting an existing subscription does not add a duplicate entry
-- [ ] T018 [US1] Verify manual subscription add flow in the browser and confirm the list is updated after each POST request, including invalid and duplicate cases
+- [X] T018 [US1] Verify manual subscription add flow in the browser and confirm the list is updated after each POST request, including invalid and duplicate cases
 
 **Checkpoint**: User Story 1 should be fully functional; adding a URL updates the subscription list and the frontend matches the backend contract.
 
