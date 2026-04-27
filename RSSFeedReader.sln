@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{CE609670-85B9-0D16-FB54-ED063D5D8A6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{1AE8ACA6-933B-BF2A-3671-3E2EAC007D16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E40BF17A-E631-09D5-7889-66BEE0F9AB0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSFeedReader.UI", "frontend\src\RSSFeedReader.UI\RSSFeedReader.UI.csproj", "{18E29685-14A7-7B2C-D567-04CD4B1E9208}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0F9113EE-888A-26D2-68B0-4A7D0A2A8745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSFeedReader.Api", "backend\src\RSSFeedReader.Api\RSSFeedReader.Api.csproj", "{A265486D-6A5E-EF55-4DD6-478FA8EABE3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18E29685-14A7-7B2C-D567-04CD4B1E9208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E29685-14A7-7B2C-D567-04CD4B1E9208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E29685-14A7-7B2C-D567-04CD4B1E9208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E29685-14A7-7B2C-D567-04CD4B1E9208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A265486D-6A5E-EF55-4DD6-478FA8EABE3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A265486D-6A5E-EF55-4DD6-478FA8EABE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A265486D-6A5E-EF55-4DD6-478FA8EABE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A265486D-6A5E-EF55-4DD6-478FA8EABE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E40BF17A-E631-09D5-7889-66BEE0F9AB0F} = {CE609670-85B9-0D16-FB54-ED063D5D8A6D}
+		{18E29685-14A7-7B2C-D567-04CD4B1E9208} = {E40BF17A-E631-09D5-7889-66BEE0F9AB0F}
+		{0F9113EE-888A-26D2-68B0-4A7D0A2A8745} = {1AE8ACA6-933B-BF2A-3671-3E2EAC007D16}
+		{A265486D-6A5E-EF55-4DD6-478FA8EABE3E} = {0F9113EE-888A-26D2-68B0-4A7D0A2A8745}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83CAA70A-EE1C-47BC-B148-ED90C62DE976}
+	EndGlobalSection
+EndGlobal

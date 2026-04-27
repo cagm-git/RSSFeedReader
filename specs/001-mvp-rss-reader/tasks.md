@@ -7,9 +7,9 @@
 
 **Purpose**: Initialize the web application structure and create the foundation for backend and frontend development.
 
-- [ ] T001 Create backend ASP.NET Core Web API project in `backend/src/RSSFeedReader.Api`
-- [ ] T002 Create frontend Blazor WebAssembly project in `frontend/src/RSSFeedReader.UI`
-- [ ] T003 [P] Add feature documentation files in `specs/001-mvp-rss-reader/` to preserve the MVP plan and contracts
+- [X] T001 Create backend ASP.NET Core Web API project in `backend/src/RSSFeedReader.Api`
+- [X] T002 Create frontend Blazor WebAssembly project in `frontend/src/RSSFeedReader.UI`
+- [X] T003 [P] Add feature documentation files in `specs/001-mvp-rss-reader/` to preserve the MVP plan and contracts
 
 ---
 
@@ -17,12 +17,12 @@
 
 **Purpose**: Implement the backend model, service, API contract, and frontend HTTP configuration that all user stories depend on.
 
-- [ ] T004 Create `backend/src/RSSFeedReader.Api/Models/Subscription.cs` to define the subscription data model
-- [ ] T005 [P] Create `backend/src/RSSFeedReader.Api/Services/SubscriptionStore.cs` for in-memory subscription storage
-- [ ] T006 [P] Configure CORS in `backend/src/RSSFeedReader.Api/Program.cs` to allow the frontend origin
-- [ ] T007 Implement API endpoints in `backend/src/RSSFeedReader.Api/Controllers/SubscriptionsController.cs` for `GET /api/subscriptions` and `POST /api/subscriptions`
-- [ ] T008 [P] Configure frontend `frontend/src/RSSFeedReader.UI/wwwroot/appsettings.json` and `frontend/src/RSSFeedReader.UI/Program.cs` to use the backend API base URL
-- [ ] T009 [P] Remove or disable Blazor template demo pages in `frontend/src/RSSFeedReader.UI/Pages/` and adjust navigation links in `frontend/src/RSSFeedReader.UI/Shared/NavMenu.razor`
+- [X] T004 Create `backend/src/RSSFeedReader.Api/Models/Subscription.cs` to define the subscription data model
+- [X] T005 [P] Create `backend/src/RSSFeedReader.Api/Services/SubscriptionStore.cs` for in-memory subscription storage
+- [X] T006 [P] Configure CORS in `backend/src/RSSFeedReader.Api/Program.cs` to allow the frontend origin
+- [X] T007 Implement API endpoints in `backend/src/RSSFeedReader.Api/Controllers/SubscriptionsController.cs` for `GET /api/subscriptions` and `POST /api/subscriptions`
+- [X] T008 [P] Configure frontend `frontend/src/RSSFeedReader.UI/wwwroot/appsettings.json` and `frontend/src/RSSFeedReader.UI/Program.cs` to use the backend API base URL
+- [X] T009 [P] Remove or disable Blazor template demo pages in `frontend/src/RSSFeedReader.UI/Pages/` and adjust navigation links in `frontend/src/RSSFeedReader.UI/Shared/NavMenu.razor`
 
 **Checkpoint**: The backend API and frontend app are set up and can communicate, with the shared subscription model defined.
 
@@ -36,14 +36,14 @@
 
 ### Implementation for User Story 1
 
-- [ ] T010 [P] [US1] Create `frontend/src/RSSFeedReader.UI/Pages/Subscriptions.razor` for the subscription management page
-- [ ] T011 [P] [US1] Add a feed URL input form to `frontend/src/RSSFeedReader.UI/Pages/Subscriptions.razor`
-- [ ] T012 [P] [US1] Add a subscription list display to `frontend/src/RSSFeedReader.UI/Pages/Subscriptions.razor`
-- [ ] T013 [US1] Create `frontend/src/RSSFeedReader.UI/Services/SubscriptionService.cs` to call the backend API
-- [ ] T014 [US1] Configure `frontend/src/RSSFeedReader.UI/App.razor` to route `/` to the subscription page
-- [ ] T015 [US1] Update `frontend/src/RSSFeedReader.UI/Shared/NavMenu.razor` to include navigation for the subscription page if needed
-- [ ] T016 [US1] Implement empty-input validation in the frontend so blank URLs are not submitted and the current list remains unchanged
-- [ ] T017 [US1] Implement duplicate URL guarding so resubmitting an existing subscription does not add a duplicate entry
+- [X] T010 [P] [US1] Create `frontend/src/RSSFeedReader.UI/Pages/Subscriptions.razor` for the subscription management page
+- [X] T011 [P] [US1] Add a feed URL input form to `frontend/src/RSSFeedReader.UI/Pages/Subscriptions.razor`
+- [X] T012 [P] [US1] Add a subscription list display to `frontend/src/RSSFeedReader.UI/Pages/Subscriptions.razor`
+- [X] T013 [US1] Create `frontend/src/RSSFeedReader.UI/Services/SubscriptionService.cs` to call the backend API
+- [X] T014 [US1] Configure `frontend/src/RSSFeedReader.UI/App.razor` to route `/` to the subscription page
+- [X] T015 [US1] Update `frontend/src/RSSFeedReader.UI/Shared/NavMenu.razor` to include navigation for the subscription page if needed
+- [X] T016 [US1] Implement empty-input validation in the frontend so blank URLs are not submitted and the current list remains unchanged
+- [X] T017 [US1] Implement duplicate URL guarding so resubmitting an existing subscription does not add a duplicate entry
 - [ ] T018 [US1] Verify manual subscription add flow in the browser and confirm the list is updated after each POST request, including invalid and duplicate cases
 
 **Checkpoint**: User Story 1 should be fully functional; adding a URL updates the subscription list and the frontend matches the backend contract.
