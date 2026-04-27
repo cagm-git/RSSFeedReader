@@ -42,7 +42,9 @@
 - [ ] T013 [US1] Create `frontend/src/RSSFeedReader.UI/Services/SubscriptionService.cs` to call the backend API
 - [ ] T014 [US1] Configure `frontend/src/RSSFeedReader.UI/App.razor` to route `/` to the subscription page
 - [ ] T015 [US1] Update `frontend/src/RSSFeedReader.UI/Shared/NavMenu.razor` to include navigation for the subscription page if needed
-- [ ] T016 [US1] Verify manual subscription add flow in the browser and confirm the list is updated after each POST request
+- [ ] T016 [US1] Implement empty-input validation in the frontend so blank URLs are not submitted and the current list remains unchanged
+- [ ] T017 [US1] Implement duplicate URL guarding so resubmitting an existing subscription does not add a duplicate entry
+- [ ] T018 [US1] Verify manual subscription add flow in the browser and confirm the list is updated after each POST request, including invalid and duplicate cases
 
 **Checkpoint**: User Story 1 should be fully functional; adding a URL updates the subscription list and the frontend matches the backend contract.
 
@@ -52,10 +54,10 @@
 
 **Purpose**: Clean up documentation, validate the contract, and confirm the MVP scope is preserved.
 
-- [ ] T017 [P] Confirm `specs/001-mvp-rss-reader/contracts/api.md` matches the implemented backend API shape
-- [ ] T018 [P] Confirm the frontend uses the backend base URL from `frontend/src/RSSFeedReader.UI/wwwroot/appsettings.json`
-- [ ] T019 [P] Confirm the app still builds and starts cleanly in both `backend/src/RSSFeedReader.Api` and `frontend/src/RSSFeedReader.UI`
-- [ ] T020 [P] Document the MVP in `specs/001-mvp-rss-reader/quickstart.md` and preserve the in-memory scope by noting that restart clears subscriptions
+- [ ] T019 [P] Confirm `specs/001-mvp-rss-reader/contracts/api.md` matches the implemented backend API shape
+- [ ] T020 [P] Confirm the frontend uses the backend base URL from `frontend/src/RSSFeedReader.UI/wwwroot/appsettings.json`
+- [ ] T021 [P] Confirm the app still builds and starts cleanly in both `backend/src/RSSFeedReader.Api` and `frontend/src/RSSFeedReader.UI`
+- [ ] T022 [P] Document the MVP in `specs/001-mvp-rss-reader/quickstart.md` and preserve the in-memory scope by noting that restart clears subscriptions
 
 ---
 
@@ -74,7 +76,7 @@
 
 ### Parallel Opportunities
 
-- `T003`, `T005`, `T006`, `T008`, `T009`, `T010`, `T011`, `T012`, `T013`, `T017`, `T018`, `T019`, and `T020` can run in parallel when there is no direct ordering dependency.
+- `T003`, `T005`, `T006`, `T008`, `T009`, `T010`, `T011`, `T012`, `T013`, `T016`, `T017`, `T018`, `T019`, `T020`, `T021`, and `T022` can run in parallel when there is no direct ordering dependency.
 - Backend model and service setup can happen in parallel with frontend HTTP configuration once the project scaffold is available.
 - UI component and routing work can happen in parallel with backend endpoint implementation after the shared model is defined.
 
