@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -14,6 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0F9113EE-888
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSFeedReader.Api", "backend\src\RSSFeedReader.Api\RSSFeedReader.Api.csproj", "{A265486D-6A5E-EF55-4DD6-478FA8EABE3E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BCAB133B-3780-443C-B1E9-F260B12AC64B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSFeedReader.Api.Tests", "tests\RSSFeedReader.Api.Tests\RSSFeedReader.Api.Tests.csproj", "{98E55718-56D6-478B-AE67-2C5C4446B929}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +32,10 @@ Global
 		{A265486D-6A5E-EF55-4DD6-478FA8EABE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A265486D-6A5E-EF55-4DD6-478FA8EABE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A265486D-6A5E-EF55-4DD6-478FA8EABE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E55718-56D6-478B-AE67-2C5C4446B929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E55718-56D6-478B-AE67-2C5C4446B929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E55718-56D6-478B-AE67-2C5C4446B929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E55718-56D6-478B-AE67-2C5C4446B929}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +45,7 @@ Global
 		{18E29685-14A7-7B2C-D567-04CD4B1E9208} = {E40BF17A-E631-09D5-7889-66BEE0F9AB0F}
 		{0F9113EE-888A-26D2-68B0-4A7D0A2A8745} = {1AE8ACA6-933B-BF2A-3671-3E2EAC007D16}
 		{A265486D-6A5E-EF55-4DD6-478FA8EABE3E} = {0F9113EE-888A-26D2-68B0-4A7D0A2A8745}
+		{98E55718-56D6-478B-AE67-2C5C4446B929} = {BCAB133B-3780-443C-B1E9-F260B12AC64B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83CAA70A-EE1C-47BC-B148-ED90C62DE976}
