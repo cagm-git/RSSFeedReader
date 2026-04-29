@@ -1,0 +1,38 @@
+# OS and editor
+.DS_Store
+Thumbs.db
+
+# Visual Studio / Rider
+.vs/
+*.user
+*.suo
+*.userosscache
+*.cache
+*.log
+
+# Build output
+**/bin/
+**/obj/
+**/publish/
+TestResults/
+coverage/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.eslintcache
+
+# Playwright / test artifacts
+playwright-report/
+
+# Project-specific
+tests/RSSFeedReader.E2E/node_modules/
+
+# Ignore personal and local config
+.vscode/
+.idea/
+
+# bmad
+_bmad/custom/*.user.toml
