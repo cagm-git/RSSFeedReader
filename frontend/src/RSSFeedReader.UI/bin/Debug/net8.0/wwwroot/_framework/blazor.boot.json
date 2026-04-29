@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "RSSFeedReader.UI",
   "resources": {
-    "hash": "sha256-9UhstuiyM79G7AU0HIrVGDpeyls75CfGrLUJsi0o/zU=",
+    "hash": "sha256-N+Q74G+y387x4Vune0j/MJKR7nkoiPUxNf0zb6g1Ht4=",
     "jsModuleNative": {
       "dotnet.native.8.0.26.q3byfdl3jo.js": "sha256-nElGk+CZFyq0PbPm4JU8avD6lER7x9Z1C54BK7qY12Q="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-UzRTTeY8BezBltrUF59UgvVNxbmnZS3LeowarsPY8+Y=",
       "netstandard.wasm": "sha256-xHQSNwqHm8E9DM86qW7CTJoRXXsQuGmPeNipDwQFNr8=",
       "System.Private.CoreLib.wasm": "sha256-N9/Djwpe2mX4HdyhCGu9jrxG/DSYKoTPbtsIOv6VFDk=",
-      "RSSFeedReader.UI.wasm": "sha256-MbB1ozKEsCUn2Gtx7mZ8QCpElkpRVlgvUXIAcskNYRY="
+      "RSSFeedReader.UI.wasm": "sha256-7Jerw6Sm5He9aCM4Y4+/7jiZSXfjYVZEu+yvGfKPVcM="
     },
     "pdb": {
-      "RSSFeedReader.UI.pdb": "sha256-29qtTduPyg2fVv5avuyjaoB/d0fb6QArcs2Vv9vRfBE="
+      "RSSFeedReader.UI.pdb": "sha256-hUVOMwEonDQD3bHDgHFfGN16vSFsY/AVm7FHFETGsEY="
     }
   },
   "cacheBootResources": true,

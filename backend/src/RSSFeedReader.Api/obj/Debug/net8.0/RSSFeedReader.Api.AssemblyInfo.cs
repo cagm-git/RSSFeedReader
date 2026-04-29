@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RSSFeedReader.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dca416f8a14806a31d4ee6141ae87a41c94d9f9d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eaa530de904fcc08c9532523a577b02da38c1fe9")]
 [assembly: System.Reflection.AssemblyProductAttribute("RSSFeedReader.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RSSFeedReader.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
